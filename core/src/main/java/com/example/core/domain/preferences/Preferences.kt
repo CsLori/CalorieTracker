@@ -5,7 +5,6 @@ import com.example.core.domain.model.Gender
 import com.example.core.domain.model.GoalType
 import com.example.core.domain.model.UserInfo
 
-
 interface Preferences {
     fun saveGender(gender: Gender)
     fun saveAge(age: Int)
